@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/UserName_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter username" />
+
+    <TextView
+        android:id="@+id/password_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pass Word"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:textSize="20dp"
+        android:text="Age" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/registerAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="register Account" />
+
+    <Button
+        android:id="@+id/already"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Already have account login here" />
+</LinearLayout>
